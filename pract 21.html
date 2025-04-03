@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title> practical no:-21 roll no:-4</title>
+</head>
+<body>
+    <body style="background-color:skyblue;">
+        <img src="images.png">
+        <h1 style="background-color:grey;">INFORMATION TECHNOLOGY </h1>
+        <h1> WPD feedback form</h1>
+        <h2> Please notedown your views</h2>
+        <p>
+            Mention the class:<br>
+            <input type="checkbox" id="class" name="class1" value="FYCO" />
+            <label for="CLASS1"> FYCO </label><br>
+            <input type="checkbox" id="CLASS2" name="CLASS2" value="FYIF">
+            <label for="CLASS2"> FYIF</label>
+        </p>
+        <form action="/action_page.php" method="get" id="form1">
+            <label for="feedback">Two-line feedback about subject teacher:</label>
+            <input type="text" id="feedback" name="feedback"><br>
+        </form>
+        <p> The fieldset below is outside the form, but still a part of the form,</p><br>
+
+        <fieldset form="form1">
+            <h3> PERSONAL INFO:</h3>
+            </p>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="Fname" value="First name"><br><br>
+            <label for="lname">last name:</label>
+            <input type="text" id="lname" name="Lname" value="Last name"><br><br>
+            <p>
+                <input type="radio" name="Gender" value="Male"> male
+                <input type="radio" name="Gender" value="female"> female
+            </p>
+            <label for="Email">Email:</label>
+            <input type="Email" id="Email" name="Email"><br><br>
+            <label for="birthday"> birthday:</label>
+            <input type="date" id="birthday" name="Birthday"><br><br>
+            <input type="submit" value="Please submit">
+        </fieldset>
+        </form>
+
+    </body>
+</html>
